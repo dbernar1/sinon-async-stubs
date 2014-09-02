@@ -1,0 +1,26 @@
+{
+  "name": "sinon-async-stubs",
+  "version": "0.0.1",
+  "description": "Succinct async function sinon stub creation",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbernar1/sinon-async-stubs"
+  },
+  "keywords": [
+    "sinon"
+  ],
+  "author": "Dan Bernardic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbernar1/sinon-async-stubs/issues"
+  },
+  "homepage": "https://github.com/dbernar1/sinon-async-stubs",
+  "dependencies": {
+    "coffee-script": "^1.8.0",
+    "sinon": "^1.10.3"
+  }
+}
